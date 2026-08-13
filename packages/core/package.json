@@ -1,0 +1,46 @@
+{
+  "name": "@agentsignal/core",
+  "version": "0.1.0",
+  "description": "Shared rules behind AgentSignal: message schemas, the endpoints we are willing to fetch, and emergency-priority arithmetic.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./endpoints": {
+      "types": "./dist/endpoints.d.ts",
+      "default": "./dist/endpoints.js"
+    },
+    "./priority": {
+      "types": "./dist/priority.d.ts",
+      "default": "./dist/priority.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepare": "pnpm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "tsup": "^8.5.0",
+    "vitest": "^4.1.10"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GriffinPilz/AgentSignal.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://agentsignal.net/docs"
+}

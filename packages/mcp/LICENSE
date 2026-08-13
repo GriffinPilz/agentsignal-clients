@@ -1,0 +1,86 @@
+AgentSignal Proprietary Software Licence
+
+Copyright (c) 2026 DataGroupAI. All rights reserved.
+
+This is not open source software. It is made available on the terms below and
+on no others. If you have a separate written agreement with us, that agreement
+governs instead of this one to the extent the two conflict.
+
+1. DEFINITIONS
+
+   "Software" means this repository and everything in it, including the
+   published packages @agentsignal/sdk, @agentsignal/cli and @agentsignal/mcp,
+   in source or compiled form.
+
+   "Service" means the AgentSignal notification service operated by DataGroupAI at
+   agentsignal.net and api.agentsignal.net.
+
+   "You" means the individual or organisation exercising the permissions
+   granted here.
+
+2. WHAT YOU MAY DO
+
+   We grant You a limited, non-exclusive, non-transferable, revocable licence
+   to install, run and integrate the client packages for the sole purpose of
+   accessing the Service through Your own account, and to modify them locally
+   as needed for that integration.
+
+   This permission covers use on any Service plan, including the free tier. It
+   costs nothing and requires no separate agreement. Nothing in this licence is
+   intended to make ordinary, paying or free-tier use of the Service harder
+   than it should be.
+
+3. WHAT YOU MAY NOT DO
+
+   Without our prior written permission, You may not:
+
+   a. redistribute, publish, sublicense, sell or otherwise make the Software
+      available to any third party, whether modified or not;
+
+   b. use the Software, or anything derived from it, to build, operate or
+      assist a product or service that competes with the Service;
+
+   c. use the Software other than to access the Service — including pointing
+      it at a reimplementation of our API;
+
+   d. reverse engineer, decompile or disassemble any compiled portion, except
+      to the extent this restriction is unenforceable under applicable law;
+
+   e. remove, obscure or alter any copyright, licence or attribution notice.
+
+   Use of the Software by or on behalf of a commercial entity is permitted only
+   within the grant in section 2. Any commercial use outside that grant
+   requires a separate licence from us.
+
+4. RESERVATION OF RIGHTS
+
+   All rights not expressly granted are reserved. No rights are granted by
+   implication, estoppel or otherwise. This licence conveys no ownership of the
+   Software and no rights in our trademarks or branding.
+
+5. TERMINATION
+
+   This licence terminates automatically if You breach it. On termination You
+   must stop using the Software and destroy the copies You hold. Sections 3
+   through 7 survive termination.
+
+6. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL WE BE LIABLE FOR
+   ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+   OR ITS USE.
+
+8. THIRD-PARTY COMPONENTS
+
+   The Software depends on third-party packages distributed under their own
+   licences, which continue to govern those components. Nothing here restricts
+   rights You hold under them.
+
+For commercial terms beyond section 2, contact griffin@develup.com.

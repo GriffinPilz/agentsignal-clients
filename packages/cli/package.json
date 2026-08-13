@@ -1,0 +1,40 @@
+{
+  "name": "@agentsignal/cli",
+  "version": "0.1.0",
+  "description": "Send AgentSignal notifications from a terminal.",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "bin": {
+    "agentsignal": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --clean",
+    "prepare": "pnpm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@agentsignal/sdk": "workspace:*",
+    "commander": "^15.0.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10",
+    "tsx": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GriffinPilz/AgentSignal.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://agentsignal.net/docs"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@agentsignal/sdk",
+  "version": "0.1.0",
+  "description": "Push notifications for agents. Deliver a short, high-signal message to a specific human's devices, right now.",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "pnpm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@agentsignal/core": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GriffinPilz/AgentSignal.git",
+    "directory": "packages/sdk"
+  },
+  "homepage": "https://agentsignal.net/docs"
+}
